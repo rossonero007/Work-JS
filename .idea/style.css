@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #191919;
+    color: #FFFFFF;
+}
+.container {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+body {
+    font-family: "DM Sans", sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px 0;
+}
+a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.58824;
+}
+nav {
+    display: flex;
+    gap: 40px;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.black {
+    width: 650px;
+    height: 873px;
+}
+h1 {
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 1.25714;
+    letter-spacing: 0.05em;
+    color: #fff;
+    padding-bottom: 60px;
+}
+span {
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 1.1;
+    letter-spacing: 0.04em;
+    color: #fff;
+}
+.listen {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #fff;
+    padding-bottom: 16px;
+}
+.emblam {
+    display: flex;
+    gap: 17px;
+}
